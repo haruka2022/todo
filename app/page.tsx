@@ -35,7 +35,6 @@ export default function Home() {
           {todos.map((todo, index) => (
             <li key={todo}>
               <p>{todo}</p>
-              <button>完了</button>
               <button onClick={() => deleteTodo(index)}>完了</button>
             </li>
           ))}
